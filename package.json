@@ -1,0 +1,9 @@
+{
+  "name": "zero-line",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite --host 0.0.0.0 --port 3000", "build": "vite build", "preview": "vite preview --host 0.0.0.0 --port 3000" },
+  "dependencies": { "three": "^0.180.0", "lucide": "^0.468.0" },
+  "devDependencies": { "vite": "^6.1.0", "@playwright/test": "^1.51.0" }
+}
